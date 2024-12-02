@@ -46,7 +46,18 @@ data/
 │   ├── ...
 ...
 ```
+### 2. Split Documents into Granular Shards
 
+To process documents into granular shards, use the `doc2granular-shards.sh` script.
+
+This script allows you to:
+1. **Tokenize documents into sentences.**
+2. **Split documents into chunks.**
+
+Run the script:
+```bash
+./doc2granular-shards.sh
+```
 # License
 
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
