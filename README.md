@@ -19,6 +19,26 @@
 **PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
 
 # Usage
+### Getting Started 
+Follow these steps to set up the environment and get started with the pipeline:
+#### 1. Clone the Repository
+Clone this repository to your local system:
+```python
+git clone https://github.com/AI4Bharat/Pralekha.git
+cd Pralekha
+```
+#### 2. Set Up a Conda Environment
+Create and activate a new Conda environment for this project:
+```python
+conda create -n pralekha python=3.9 -y
+conda activate pralekha
+```
+#### 3. Install Dependencies
+Install the required Python packages:
+```python
+pip install -r requirements.txt
+```
+
 ### 1. Input Directory Structure
 
 The pipeline expects a directory structure in the following format:
