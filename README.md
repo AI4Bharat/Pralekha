@@ -19,7 +19,7 @@
 **PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
 
 # Usage
-### Getting Started 
+### 1. Getting Started 
 Follow these steps to set up the environment and get started with the pipeline:
 #### 1. Clone the Repository
 Clone this repository to your local system:
@@ -39,7 +39,7 @@ Install the required Python packages:
 pip install -r requirements.txt
 ```
 
-### 1. Input Directory Structure
+### 2. Input Directory Structure
 
 The pipeline expects a directory structure in the following format:
 
@@ -66,7 +66,7 @@ data/
 │   ├── ...
 ...
 ```
-### 2. Split Documents into Granular Shards
+### 3. Split Documents into Granular Shards
 
 To process documents into granular shards, use the `doc2granular-shards.sh` script.
 
@@ -78,14 +78,14 @@ Run the script:
 ```bash
 bash doc2granular-shards.sh
 ```
-### 3. Create Embeddings
+### 4. Create Embeddings
 Generate embeddings for your dataset using one of the two supported models: LaBSE or SONAR.
 ```bash
 bash create_embeddings.sh
 ```
 Choose the desired model by editing the script as needed. Both models can be run sequentially or independently by enabling/disabling the respective sections.
 
-### 3. Run the Pipeline
+### 5. Run the Pipeline
 The final step is to execute the pipeline based on your chosen method:
 For `baseline` approaches:
 ```bash
