@@ -87,6 +87,7 @@ Choose the desired model by editing the script as needed. Both models can be run
 
 ### 5. Run the Pipeline
 The final step is to execute the pipeline based on your chosen method:
+
 For `baseline` approaches:
 ```bash
 bash run_baseline_pipeline.sh
