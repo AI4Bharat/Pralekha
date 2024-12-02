@@ -30,25 +30,22 @@ Below is an example of the expected directory structure:
 ```plaintext
 data/
 ├── eng/
-│   ├── tech-innovations-2023.txt      # Document on tech innovations
-│   ├── global-news-789.txt            # Global news summary
-│   ├── sports-highlights-day5.txt     # Sports highlights
-│   ├── press-release-456.txt          # Official press release
+│   ├── tech-innovations-2023.txt                
+│   ├── sports-highlights-day5.txt     
+│   ├── press-release-456.txt         
 │   ├── ...
 ├── hin/
-│   ├── daily-briefing-april.txt       # Daily briefing for April
-│   ├── market-trends-yearend.txt      # Year-end market trends
-│   ├── इंडिया-न्यूज़123.txt              # News in Hindi
-│   ├── पर्यावरण-संवाद.txt               # Environmental updates
+│   ├── daily-briefing-april.txt       
+│   ├── market-trends-yearend.txt      
+│   ├── इंडिया-न्यूज़123.txt              
 │   ├── ...
 ├── tam/
-│   ├── kollywood-review-movie5.txt   # Movie review
-│   ├── 2023-pilgrimage-guide.txt     # Pilgrimage guide for 2023
-│   ├── tamil-nadu-budget-7890.txt    # Tamil Nadu budget report
-│   ├── கடலோர-மாநில-செய்தி.txt          # Coastal state news in Tamil
+│   ├── kollywood-review-movie5.txt   
+│   ├── 2023-pilgrimage-guide.txt       
+│   ├── கடலோர-மாநில-செய்தி.txt          
 │   ├── ...
 ...
-
+```
 # License
 
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
