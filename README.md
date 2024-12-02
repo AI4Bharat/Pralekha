@@ -56,8 +56,27 @@ This script allows you to:
 
 Run the script:
 ```bash
-./doc2granular-shards.sh
+bash doc2granular-shards.sh
 ```
+### 3. Create Embeddings
+Generate embeddings for your dataset using one of the two supported models: LaBSE or SONAR.
+```bash
+bash create_embeddings.sh
+```
+Choose the desired model by editing the script as needed. Both models can be run sequentially or independently by enabling/disabling the respective sections.
+
+### 3. Run the Pipeline
+The final step is to execute the pipeline based on your chosen method:
+For `baseline` approaches:
+```bash
+bash run_baseline_pipeline.sh
+```
+For the proposed `DAC` approach:
+```bash
+bash run_dac_pipeline.sh
+```
+Each pipeline comes with a variety of configurable parameters, allowing you to tailor the process to your specific requirements. Please review and edit the scripts as needed before running to ensure they align with your desired configurations.
+
 # License
 
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
