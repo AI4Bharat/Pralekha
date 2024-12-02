@@ -1,6 +1,5 @@
 # Pralekha: An Indic Document Alignment Evaluation Benchmark
 
-
 <div style="display: flex; gap: 10px;">
   <a href="https://arxiv.org/abs/2411.19096">
     <img src="https://img.shields.io/badge/arXiv-2411.19096-B31B1B" alt="arXiv">
@@ -17,7 +16,6 @@
 </div>
 
 ## Overview
----
 **PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
 
 # Usage
