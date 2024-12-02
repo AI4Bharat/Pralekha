@@ -18,7 +18,7 @@
 ## Overview
 **PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
 
-# Usage
+## Usage
 
 
 ## License
