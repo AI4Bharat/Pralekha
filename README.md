@@ -15,18 +15,55 @@
   </a>
 </div>
 
-## Overview
+# Overview
 **PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
 
-## Usage
+# Usage
+### 1. Input Directory Structure
 
+The pipeline expects a directory structure in the following format:
 
-## License
+- A **main directory** containing language subdirectories named using their **3-letter ISO codes** (e.g., `eng` for English, `hin` for Hindi, `tam` for Tamil, etc.)
+- Each language subdirectory will contain `.txt` documents named in the format `{doc_id}.txt`, where `doc_id` serves as the unique identifier for each document.
+
+Below is an example of the expected directory structure:
+```plaintext
+data/
+├── eng/
+│   ├── tech-innovations-2023.txt                
+│   ├── sports-highlights-day5.txt     
+│   ├── press-release-456.txt         
+│   ├── ...
+├── hin/
+│   ├── daily-briefing-april.txt       
+│   ├── market-trends-yearend.txt      
+│   ├── इंडिया-न्यूज़123.txt              
+│   ├── ...
+├── tam/
+│   ├── kollywood-review-movie5.txt   
+│   ├── 2023-pilgrimage-guide.txt       
+│   ├── கடலோர-மாநில-செய்தி.txt          
+│   ├── ...
+...
+```
+### 2. Split Documents into Granular Shards
+
+To process documents into granular shards, use the `doc2granular-shards.sh` script.
+
+This script allows you to:
+1. **Tokenize documents into sentences.**
+2. **Split documents into chunks.**
+
+Run the script:
+```bash
+./doc2granular-shards.sh
+```
+# License
 
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
 
 
-## Contact
+# Contact
 
 For any questions or feedback, please contact:
 
