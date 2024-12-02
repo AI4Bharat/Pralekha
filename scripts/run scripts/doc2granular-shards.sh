@@ -1,16 +1,14 @@
 #!/bin/bash
 
-# Variables
+# Sentence Tokenization
+# Comment the following block to disable sentence tokenization
 INPUT_DIR="data"                     # Base directory with language subdirectories
 OUTPUT_SENT_DIR="output/sentences"   # Directory to store sentence JSONL shards
-OUTPUT_CHUNK_DIR="output/chunks"     # Directory to store chunk JSONL shards
-LANGUAGES=("eng" "hin" "tam")        # Languages to process
-SHARD_SIZE=50000                     # Number of entries per shard
+LANGUAGES=("eng" "hin" "tam")        # Languages to process for sentence tokenization
+SHARD_SIZE=50000                     # Number of sentences per shard
 BATCH_SIZE=100                       # Number of files processed per batch
-SENTSPCHUNK=4                        # Number of sentences per chunk (2,4,8)
+MIN_WORDS=3                          # Minimum number of words per sentence
 
-# Enable/Disable Sentence Tokenization
-# Comment the following block to disable sentence tokenization
 echo "Starting sentence tokenization..."
 python doc2sentences.py \
   --input_dir $INPUT_DIR \
@@ -21,8 +19,15 @@ python doc2sentences.py \
   --min_words $MIN_WORDS
 echo "Sentence tokenization completed."
 
-# Enable/Disable Chunk Splitting
+# Chunk Splitting
 # Comment the following block to disable chunk splitting
+OUTPUT_CHUNK_DIR="output/chunks"     # Directory to store chunk JSONL shards
+LANGUAGES=("eng" "hin" "tam")        # Languages to process for chunk splitting
+SHARD_SIZE=50000                     # Number of chunks per shard
+BATCH_SIZE=100                       # Number of files processed per batch
+SENTSPCHUNK=4                        # Number of sentences per chunk (2, 4, or 8)
+MIN_WORDS=3                          # Minimum number of words per chunk
+
 echo "Starting chunk splitting..."
 python doc2chunks.py \
   --input_dir $INPUT_DIR \
