@@ -107,14 +107,11 @@ This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/l
 # Citation
 If you used this repository or our models, please cite our work:
 ```
-@misc{suryanarayanan2024pralekhaindicdocumentalignment,
-      title={Pralekha: An Indic Document Alignment Evaluation Benchmark}, 
-      author={Sanjay Suryanarayanan and Haiyue Song and Mohammed Safi Ur Rahman Khan and Anoop Kunchukuttan and Mitesh M. Khapra and Raj Dabre},
-      year={2024},
-      eprint={2411.19096},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.19096}, 
+@article{suryanarayanan2024pralekha,
+  title={Pralekha: An Indic Document Alignment Evaluation Benchmark},
+  author={Suryanarayanan, Sanjay and Song, Haiyue and Khan, Mohammed Safi Ur Rahman and Kunchukuttan, Anoop and Khapra, Mitesh M and Dabre, Raj},
+  journal={arXiv preprint arXiv:2411.19096},
+  year={2024}
 }
 ```
 # Contact
