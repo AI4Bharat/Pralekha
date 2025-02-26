@@ -15,25 +15,26 @@
   </a>
 </div>
 
-**PRALEKHA** is a large-scale document-level benchmark for Cross-Lingual Document Alignment (CLDA) evaluation, comprising over **3 million** aligned document pairs across **11 Indic languages** and English, with **1.5 million** being English-centric. We propose a comprehensive evaluation framework introducing **Document Alignment Coefficient (DAC)**, a novel metric designed for fine-grained document alignment.  
+# Overview
+**PRALEKHA** is a large-scale document-level benchmark for Cross-Lingual Document Alignment (CLDA) evaluation, comprising over 3 million aligned document pairs across 11 Indic languages and English, with 1.5 million being English-centric. We propose a comprehensive evaluation framework introducing **Document Alignment Coefficient (DAC)**, a novel metric designed for fine-grained document alignment. Unlike existing approaches that use pooled document-level embeddings, DAC aligns smaller chunks within documents and computes similarity based on the ratio of aligned chunks. This method improves over baseline pooling approaches, especially in noisy scenarios, with 15–20% precision and 5–10% F1 score gains.
  
 
 # Usage
-### 1. Getting Started 
+### 1. Setup 
 Follow these steps to set up the environment and get started with the pipeline:
-#### 1. Clone the Repository
+#### i. Clone the Repository
 Clone this repository to your local system:
 ```python
 git clone https://github.com/AI4Bharat/Pralekha.git
 cd Pralekha
 ```
-#### 2. Set Up a Conda Environment
+#### ii. Set Up a Conda Environment
 Create and activate a new Conda environment for this project:
 ```python
 conda create -n pralekha python=3.9 -y
 conda activate pralekha
 ```
-#### 3. Install Dependencies
+#### iii. Install Dependencies
 Install the required Python packages:
 ```python
 pip install -r requirements.txt
