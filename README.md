@@ -115,3 +115,17 @@ For any questions or feedback, please contact:
 - Mohammed Safi Ur Rahman Khan ([safikhan2000@gmail.com](mailto:safikhan2000@gmail.com))  
 
 Please get in touch with us for any copyright concerns.
+
+# Citation
+If you used this repository or our models, please cite our work:
+```
+@misc{suryanarayanan2024pralekhaindicdocumentalignment,
+      title={Pralekha: An Indic Document Alignment Evaluation Benchmark}, 
+      author={Sanjay Suryanarayanan and Haiyue Song and Mohammed Safi Ur Rahman Khan and Anoop Kunchukuttan and Mitesh M. Khapra and Raj Dabre},
+      year={2024},
+      eprint={2411.19096},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.19096}, 
+}
+```
