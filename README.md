@@ -15,8 +15,8 @@
   </a>
 </div>
 
-# Overview
-**PRALEKHA** is a large-scale benchmark for evaluating document-level alignment techniques. It includes 2M+ documents, covering 11 Indic languages and English, with a balanced mix of aligned and unaligned pairs.
+**PRALEKHA** is a large-scale document-level benchmark for Cross-Lingual Document Alignment (CLDA) evaluation, comprising over **3 million** aligned document pairs across **11 Indic languages** and English, with **1.5 million** being English-centric. We propose a comprehensive evaluation framework introducing **Document Alignment Coefficient (DAC)**, a novel metric designed for fine-grained document alignment.  
+ 
 
 # Usage
 ### 1. Getting Started 
