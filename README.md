@@ -1,4 +1,4 @@
-# Pralekha: An Indic Document Alignment Evaluation Benchmark
+# Pralekha: Cross-Lingual Document Alignment for Indic Languages
 
 <div style="display: flex; gap: 10px;">
   <a href="https://arxiv.org/abs/2411.19096">
