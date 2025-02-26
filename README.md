@@ -70,9 +70,10 @@ data/
 
 To process documents into granular shards, use the `doc2granular-shards.sh` script.
 
-This script allows you to:
-1. **Tokenize documents into sentences.**
-2. **Split documents into chunks.**
+This script splits documents into chunks of varying granularities:  
+
+- **G = 1** → Sentence-level  
+- **G = 2, 4, 8** → Chunk-level (2, 4, or 8 sentences per chunk)
 
 Run the script:
 ```bash
