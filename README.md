@@ -104,18 +104,6 @@ Each pipeline comes with a variety of configurable parameters, allowing you to t
 
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
 
-
-# Contact
-
-For any questions or feedback, please contact:
-
-- Raj Dabre ([raj.dabre@cse.iitm.ac.in](mailto:raj.dabre@cse.iitm.ac.in))  
-- Sanjay Suryanarayanan ([sanj.ai@outlook.com](mailto:sanj.ai@outlook.com))  
-- Haiyue Song ([haiyue.song@nict.go.jp](mailto:haiyue.song@nict.go.jp))  
-- Mohammed Safi Ur Rahman Khan ([safikhan2000@gmail.com](mailto:safikhan2000@gmail.com))  
-
-Please get in touch with us for any copyright concerns.
-
 # Citation
 If you used this repository or our models, please cite our work:
 ```
@@ -129,3 +117,13 @@ If you used this repository or our models, please cite our work:
       url={https://arxiv.org/abs/2411.19096}, 
 }
 ```
+# Contact
+
+For any questions or feedback, please contact:
+
+- Raj Dabre ([raj.dabre@cse.iitm.ac.in](mailto:raj.dabre@cse.iitm.ac.in))  
+- Sanjay Suryanarayanan ([sanj.ai@outlook.com](mailto:sanj.ai@outlook.com))  
+- Haiyue Song ([haiyue.song@nict.go.jp](mailto:haiyue.song@nict.go.jp))  
+- Mohammed Safi Ur Rahman Khan ([safikhan2000@gmail.com](mailto:safikhan2000@gmail.com))  
+
+Please get in touch with us for any copyright concerns.
