@@ -105,7 +105,7 @@ Each pipeline comes with a variety of configurable parameters, allowing you to t
 This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) license.
 
 # Citation
-If you used this repository or our models, please cite our work:
+If you use Pralekha in your work, please cite us:
 ```
 @article{suryanarayanan2024pralekha,
   title={Pralekha: An Indic Document Alignment Evaluation Benchmark},
