@@ -81,7 +81,7 @@ Run the script:
 bash doc2granular-shards.sh
 ```
 ### 4. Create Embeddings
-Generate embeddings for your dataset using one of the two supported models: LaBSE or SONAR.
+Generate embeddings for your dataset using one of the two supported models: `LaBSE` or `SONAR`.
 ```bash
 bash create_embeddings.sh
 ```
