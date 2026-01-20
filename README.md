@@ -107,15 +107,17 @@ This dataset is released under the [**CC BY 4.0**](https://creativecommons.org/l
 # Citation
 If you use Pralekha in your work, please cite us:
 ```
-@misc{suryanarayanan2025pralekhacrosslingualdocumentalignment,
-      title={Pralekha: Cross-Lingual Document Alignment for Indic Languages}, 
-      author={Sanjay Suryanarayanan and Haiyue Song and Mohammed Safi Ur Rahman Khan and Anoop Kunchukuttan and Raj Dabre},
-      year={2025},
-      eprint={2411.19096},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.19096}, 
-}
+@inproceedings{suryanarayanan-etal-2025-pralekha,
+    title = "{PRALEKHA}: Cross-Lingual Document Alignment for {I}ndic Languages",
+    author = "Suryanarayanan, Sanjay  and Song, Haiyue  and Khan, Mohammed Safi Ur Rahman  and Kunchukuttan, Anoop  and Dabre, Raj",
+    booktitle = "Proceedings of the 14th International Joint Conference on Natural Language Processing and the 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    month = dec,
+    year = "2025",
+    address = "Mumbai, India",
+    publisher = "The Asian Federation of Natural Language Processing and The Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.ijcnlp-long.37/",
+    pages = "662--676"
+    }
 ```
 # Contact
 
