@@ -123,9 +123,8 @@ If you use Pralekha in your work, please cite us:
 
 For any questions or feedback, please contact:
 
-- Raj Dabre ([raj.dabre@cse.iitm.ac.in](mailto:raj.dabre@cse.iitm.ac.in))  
 - Sanjay Suryanarayanan ([sanj.ai@outlook.com](mailto:sanj.ai@outlook.com))  
-- Haiyue Song ([haiyue.song@nict.go.jp](mailto:haiyue.song@nict.go.jp))  
-- Mohammed Safi Ur Rahman Khan ([safikhan2000@gmail.com](mailto:safikhan2000@gmail.com))  
+- Haiyue Song ([haiyue.song@nict.go.jp](mailto:haiyue.song@nict.go.jp))
+- Raj Dabre ([raj.dabre@cse.iitm.ac.in](mailto:raj.dabre@cse.iitm.ac.in))   
 
 Please get in touch with us for any copyright concerns.
